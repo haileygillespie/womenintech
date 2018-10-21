@@ -1,0 +1,17 @@
+.post {
+    padding: 20px;
+}
+#post-container {
+    width: 50vw;
+}
+#primary-feed-stuff {
+    width: 50vw;
+    text-align: center;
+}
+.column-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+#post-box {
+    resize: none;
+}
