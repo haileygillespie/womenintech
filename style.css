@@ -1,17 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inconsolata', monospace;
+    padding-top: 85px;
+}
 .post {
     padding: 20px;
+    margin: 20px;
+    margin-right: 50px;
+    box-shadow: 1px 1px 5px #aaaaaa;
+    border-left: 5px solid #133c7c;
+    border-top: 1px solid #133c7c;
+    border-bottom: 1px solid #133c7c;
 }
 #post-container {
     width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 #primary-feed-stuff {
-    width: 50vw;
-    text-align: center;
+    position: fixed;
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 7px #aaaaaa;
 }
-.column-container {
-    display: flex;
-    justify-content: space-evenly;
+#feed-stuff-container {
+    display: none;
 }
 #post-box {
+    resize: none;
+}
+#nav {
+    background-color: #133c7c;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+}
+#nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+}
+#nav a:hover {
+    border-bottom: 3px solid white
+}
+#nav-align-left {
+    float: left;
+} 
+#nav-align-right {
+    margin-top: 25px;
+    float: right;
+}
+.log-box {
+    border: 1px solid black;
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #aaaaaa;
+}
+.main {
+    min-height: 100%;
+    width: 66vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+}
+#edit-button {
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 10px;
+    box-shadow: 1.5px 1.5px 5px #aaaaaa;
+    color: white;
+    background-color: #133c7c;
+    border: none;
+    position: fixed;
+}
+#edit-button:hover {
+    box-shadow: none;
+}
+#chat-button {
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 60px;
+    box-shadow: 1.5px 1.5px 5px #aaaaaa;
+    color: white;
+    background-color: #133c7c;
+    border: none;
+    position: fixed;
+}
+#message-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.message {
+    border-left: 3px solid #133c7c;
+    background-color: rgb(161, 177, 204, .3);
+    padding: 5px;
+    margin: 5px;
+}
+#message-box {
     resize: none;
 }
